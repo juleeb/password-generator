@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Password Generator</title>
-    </head>
-    <body>
-        <header> 
-            <h1>Password Generator</h1>
-        </header>
-    </body>
+<head>
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href ="style.css">
+    <script src="password.js"></script>
+</head>
+<body>
+    <nav class="navbar justify-content-center" style="background-color: lightskyblue;">
+        <h1>Random Password Generator</h1>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <section>
+                 <div class="col-xl- 12col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <h4>Click button to generate random password!</h4>
+                 </div>
+                 <div class="col-xl- 12col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+                 <input type="text" id="display">
+                 </div>
+            </section>
+                 <div class="col-xl- 12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <button onclick="generate()" id="btngenerate">Generate</button>
+                    <button onclick="copy()" id="btncopy">Copy to Clipboard</button>
+                 </div>
+        </div>
+    </div>
+</body>
 </html>

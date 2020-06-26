@@ -1,0 +1,15 @@
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: pink;
+    padding: 20px;
+    width: 100%;
+}
+
+#display {
+    width: 100%;
+}
+h4 {
+    text-align: center;
+}
+
