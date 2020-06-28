@@ -5,7 +5,7 @@ Generating random password when button is clicked based on user-selected prompts
 
 Image preview:
 
-<img src="assets/screenshot.png" width="500" height="350">
+<img src="assets/screenshot.png" width="700" height="500">
 
 Descriptions of Project:
 
@@ -18,6 +18,7 @@ Descriptions of Project:
 -Booostrap grid system is used for responsive layouts.
 
 -Java Script is used
+
     -function
     -object
     -math
@@ -25,4 +26,8 @@ Descriptions of Project:
     -loop for 
     -arrays
     
+-Deployed Link:
+
+https://juleeb.github.io/password-generator/
+
 
