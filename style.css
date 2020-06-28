@@ -1,9 +1,10 @@
 section {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: pink;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    background-color: lightblue;
     padding: 20px;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 #display {
@@ -11,5 +12,15 @@ section {
 }
 h4 {
     text-align: center;
+    padding-bottom: 10px;
 }
-
+.container {
+    background-color: lightskyblue;
+    text-align: center;
+}
+button {
+    margin-bottom: 50px;
+}
+nav {
+    margin-bottom: 20px;
+}
